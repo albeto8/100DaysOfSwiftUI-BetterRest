@@ -13,6 +13,7 @@
 		F20A27C0235FDE590042D01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20A27BF235FDE590042D01A /* Assets.xcassets */; };
 		F20A27C3235FDE590042D01A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20A27C2235FDE590042D01A /* Preview Assets.xcassets */; };
 		F20A27C6235FDE590042D01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20A27C4235FDE590042D01A /* LaunchScreen.storyboard */; };
+		F20A27CE235FE27C0042D01A /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F20A27CD235FE27C0042D01A /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F20A27C2235FDE590042D01A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F20A27C5235FDE590042D01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20A27C7235FDE590042D01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20A27CD235FE27C0042D01A /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F20A27BF235FDE590042D01A /* Assets.xcassets */,
 				F20A27C4235FDE590042D01A /* LaunchScreen.storyboard */,
 				F20A27C7235FDE590042D01A /* Info.plist */,
+				F20A27CD235FE27C0042D01A /* SleepCalculator.mlmodel */,
 				F20A27C1235FDE590042D01A /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20A27BA235FDE580042D01A /* AppDelegate.swift in Sources */,
+				F20A27CE235FE27C0042D01A /* SleepCalculator.mlmodel in Sources */,
 				F20A27BC235FDE580042D01A /* SceneDelegate.swift in Sources */,
 				F20A27BE235FDE580042D01A /* ContentView.swift in Sources */,
 			);
